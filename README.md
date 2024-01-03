@@ -66,6 +66,6 @@ center right parts of the dungeon. The monsters know about it!
 Credits and recognitions
 ------------------------
 
-Mainly grateful to troglobite for adapting the original code of the game so that it could be compiled without problems on more modern systems than the original.
+Mainly grateful to troglobit for adapting the original code of the game so that it could be compiled without problems on more modern systems than the original.
 
 [https://github.com/troglobit]()
