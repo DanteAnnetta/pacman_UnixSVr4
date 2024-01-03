@@ -298,7 +298,7 @@ static void pacman(void)
 	refresh();
 
 	/* pause; this is the main delay on each turn */
-	delay = 150;
+	delay = 150;  // To take advantage of performance on more modern devices, this delay is reduced.
 	napms(delay);
 	/*
 	 * Wait until .1 seconds or less of output in queue.
