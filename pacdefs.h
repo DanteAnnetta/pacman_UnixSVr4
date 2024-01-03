@@ -11,21 +11,21 @@
 #define GAME1	'1'
 #define GAME2	'2'
 #define GAME3	'3'
-#define MAXSCORE	"/var/games/pacman.log"
+#define MAXSCORE	"/pacman.log"   // /var/games/pacman.log
 #define MSSAVE	5	/* maximum scores saved per game type */
 #define MGTYPE	3	/* Maximum game types */
 #define	MAXPAC	3	/* maximum number of pacmen to start */
 #define	MAXMONSTER	4	/* max number of monsters */
 #define EMPTY	0
 #define FULL	1
-#define LEFT	'h'
-#define NLEFT	's'
-#define RIGHT	'l'
-#define NRIGHT	'f'
-#define	NORTH	'k'	/* means UP, but UP defined in vsinit() */
-#define NNORTH	'e'
-#define	DOWN	'j'
-#define NDOWN	'c'
+#define LEFT	'a'
+#define NLEFT	'j'
+#define RIGHT	'd'
+#define NRIGHT	'l'
+#define	NORTH	'w'	/* means UP, but UP defined in vsinit() */
+#define NNORTH	'i'
+#define	DOWN	's'
+#define NDOWN	'k'
 #define HALT	' '
 #define REDRAW	'\14'
 #define DELETE	'\177'

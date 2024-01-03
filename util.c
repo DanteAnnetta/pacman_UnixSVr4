@@ -279,10 +279,10 @@ void instruct(void)
 	printw("results in further treasure appearing magically somewhere in the dungeon,\n");
 	printw("marked by \"$\". There is a magic tunnel connecting the center left and\n");
 	printw("center right parts of the dungeon. The monsters know about it!\n\n");
-	printw("        Type:   h or s  to move left\n");
-	printw("                l or f  to move right\n");
-	printw("                k or e  to move up\n");
-	printw("                j or c  to move down\n");
+	printw("        Type:   a or j  to move left\n");
+	printw("                d or l  to move right\n");
+	printw("                w or i  to move up\n");
+	printw("                s or k  to move down\n");
 	printw("                <space> to halt \n");
 	printw("                q       to quit\n\n");
 	printw("        Type:   1       easy game\n");
