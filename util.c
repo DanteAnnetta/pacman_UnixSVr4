@@ -506,12 +506,13 @@ readin:
 	case KEY_DOWN:
 		pacptr->dirn = DDOWN;
 		break;
-
-	case HALT:
+/*
+	//For a more dynamic game this feature was disabled
+	case HALT:   
 	case KEY_HOME:
 		pacptr->dirn = DNULL;
 		break;
-
+*/
 	case REDRAW:
 		clearok(curscr, TRUE);
 //		draino(0);
