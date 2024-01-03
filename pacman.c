@@ -298,8 +298,8 @@ static void pacman(void)
 	refresh();
 
 	/* pause; this is the main delay on each turn */
+	delay = 150;
 	napms(delay);
-
 	/*
 	 * Wait until .1 seconds or less of output in queue.
 	 * This is to make it work better on verbose terminals
