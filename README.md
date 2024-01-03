@@ -53,13 +53,13 @@ results in further treasure appearing magically somewhere in the dungeon,
 marked by "$". There is a magic tunnel connecting the center left and
 center right parts of the dungeon. The monsters know about it!
 
-    Type:   a or j  to move left
+    Type:       a or j  to move left
                 d or l  to move right
                 w or i  to move up
                 s or k  to move down`<space>` to halt
                 q       to quit
 
-    Type:   1       easy game
+    Type:       1       easy game
                 2       intelligent monsters
                 3       very intelligent monsters
 
