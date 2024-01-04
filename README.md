@@ -56,7 +56,7 @@ center right parts of the dungeon. The monsters know about it!
     Type:       a or j  to move left
                 d or l  to move right
                 w or i  to move up
-                s or k  to move down`<space>` to halt
+                s or k  to move down
                 q       to quit
 
     Type:       1       easy game
