@@ -283,7 +283,7 @@ void instruct(void)
 	printw("                d or l  to move right\n");
 	printw("                w or i  to move up\n");
 	printw("                s or k  to move down\n");
-	printw("                <space> to halt \n");
+	//printw("                <space> to halt \n");
 	printw("                q       to quit\n\n");
 	printw("        Type:   1       easy game\n");
 	printw("                2       intelligent monsters\n");
