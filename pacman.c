@@ -15,7 +15,6 @@
 #include <termios.h>
 #include <unistd.h>
 #include "pacdefs.h"
- 
 /*
  * global variables
  */

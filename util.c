@@ -430,6 +430,7 @@ void init(void)
 	 * New game starts here
 	 */
 	if (game == 0)
+		movie();
 		instruct();
 	while ((game == 0) && (tries++ < 300))
 	{

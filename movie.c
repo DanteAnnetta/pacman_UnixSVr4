@@ -331,4 +331,5 @@ void movie(void)
 	/* clean up a little bit */
 	clear();
 	refresh();
+
 }
