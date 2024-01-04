@@ -63,9 +63,24 @@ center right parts of the dungeon. The monsters know about it!
                 2       intelligent monsters
                 3       very intelligent monsters
 
+
+## Installation Guide
+
+For install this game you must exec the following command:
+
+```
+make && sudo make install
+```
+
 Credits and recognitions
 ------------------------
 
 Mainly grateful to troglobit for adapting the original code of the game so that it could be compiled without problems on more modern systems than the original.
 
 [https://github.com/troglobit]()
+
+## Work to do:
+
+* Replace brd with initbrd
+* Deploy next-move feature in pacman's move.
+* Continue optimizing the game to run on Linux.
