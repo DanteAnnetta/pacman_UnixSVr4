@@ -63,7 +63,6 @@ center right parts of the dungeon. The monsters know about it!
                 2       intelligent monsters
                 3       very intelligent monsters
 
-
 ## Installation Guide
 
 For install this game you must exec the following command:
@@ -83,4 +82,3 @@ Mainly grateful to troglobit for adapting the original code of the game so that 
 
 * Replace brd with initbrd
 * Deploy next-move feature in pacman's move.
-* Continue optimizing the game to run on Linux.
