@@ -256,6 +256,7 @@ void movie(void)
 		else {
 			SPLOT(13, 1, " ");
 		}
+		usleep(10000);
 		refresh();
 	}
 
@@ -268,7 +269,7 @@ void movie(void)
 	left5(); left6();
 	left7();
 
-	sleep(1);
+	usleep(10000);
 
 	/* Now we come back on...  */
 	left7(); left6();
@@ -301,6 +302,7 @@ void movie(void)
 				break;
 			}
 		}
+		usleep(10000);
 		refresh();
 	}
 	/*
@@ -320,6 +322,7 @@ void movie(void)
 	/* Now finish moving the pacman to the end of the screen.  */
 	for (i=59; i < 74; i++) {
 		monst4(i);
+		usleep(10000);
 		refresh();
 	}
 
